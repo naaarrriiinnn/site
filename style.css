@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("fonts/Vazir-Regular.eot"); /* IE9 Compat Modes */
+  src: url("fonts/Vazir-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/Vazir-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/Vazir-Regular.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("fonts/Vazir-Regular.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 80px;
+  text-align: center;
+  font-weight: bold;
+  border-top: 5px;
+}
+
+#navbar {
+  background-color: dimgrey;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: baseline;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#navbar ul a {
+  padding: 1rem;
+}
+
+#navbar ul a:hover {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#space {
+  margin: 10%;
+}
+.logo span {
+  color: orange;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.num {
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container .btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  padding: 20px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: white;
+  color: orange;
+}
+
+.con {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1500px;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.con .item {
+  width: 200px;
+  background: white;
+}
+
+.circle-icon {
+  background: orange;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 3px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: right;
+  border: 3rem;
+  background-color: gray;
+  border-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.txt {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.flex-container > img {
+  height: auto;
+}
+
+.intr {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intr > img {
+  border-radius: 50%;
+}
+
+.dec_form {
+  flex-direction: row-reverse;
+  text-align: right;
+}
