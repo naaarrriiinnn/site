@@ -23,17 +23,21 @@ a {
 }
 
 h2 {
-  margin-bottom: 80px;
+  margin: 5rem;
   text-align: center;
   font-weight: bold;
   border-top: 5px;
+}
+
+h3 {
+  margin: 1rem;
 }
 
 #navbar {
   background-color: dimgrey;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 1.5%;
   align-items: baseline;
 }
 
@@ -55,6 +59,10 @@ h2 {
 #space {
   margin: 10%;
 }
+
+.try {
+  margin-right: 5%;
+}
 .logo span {
   color: orange;
 }
@@ -75,7 +83,7 @@ h2 {
   top: 10%;
   width: 100%;
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .num {
@@ -106,9 +114,13 @@ h2 {
   color: orange;
 }
 
+.btn:hover {
+  background-color: white;
+  color: orange;
+}
+
 .con {
   display: flex;
-  flex-flow: row wrap;
   width: 1500px;
   justify-content: space-around;
   margin-bottom: 100px;
@@ -123,18 +135,13 @@ h2 {
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  text-align: center;
-  line-height: 3px;
   padding: 30px;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
   text-align: right;
-  border: 3rem;
   background-color: gray;
   border-top: 20px;
 }
@@ -150,6 +157,7 @@ ul {
 
 .flex-container > img {
   height: auto;
+  width: 800px;
 }
 
 .intr {
@@ -164,4 +172,38 @@ ul {
 .dec_form {
   flex-direction: row-reverse;
   text-align: right;
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20rem;
+}
+
+.dec_form {
+  border: 5px solid white;
+  text-align: right;
+  margin: 10%;
+}
+
+.element {
+  height: 50%;
+  width: 40%;
+}
+
+.font-size {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  border: 10%;
+  background-color: gray;
+  padding: 2%;
 }
